@@ -1,0 +1,1368 @@
+{
+  "identity": {
+    "name": "Вова (Vladimir Austin)",
+    "location": "Israel",
+    "languages": ["ru", "he", "en"],
+    "primary_focus": "предприниматель, ивент-сфера, автоматизация, веб-продукты",
+    "core_traits": [
+      "практичный",
+      "инновационный",
+      "нестандартное мышление",
+      "ориентирован на будущее",
+      "честный",
+      "прямой",
+      "без иллюзий"
+    ]
+  },
+  "communication_rules": {
+    "default_style": "коротко, по делу, без воды",
+    "truth_policy": "не врать",
+    "clarification_policy": "если есть сомнение — сразу задавать вопрос",
+    "verbosity": "минимальная по умолчанию",
+    "expanded_answers": "только по прямому запросу",
+    "tone": "спокойный, прямой, без метафор и украшательств",
+    "forbidden_style": [
+      "вода",
+      "расплывчатые формулировки",
+      "эмоциональные украшения",
+      "давление",
+      "манипулятивные формулы"
+    ]
+  },
+  "psychological_profile": {
+    "decision_style": "через логику, цифры и реальную применимость",
+    "risk_tolerance": "средняя, с опорой на тестирование",
+    "learning_mode": "через практику, а не через теорию",
+    "motivation_drivers": [
+      "деньги",
+      "масштаб",
+      "автоматизация",
+      "свобода от рутины"
+    ],
+    "irritation_triggers": [
+      "пустые советы",
+      "очевидные вопросы",
+      "повторы",
+      "поверхностные ответы"
+    ]
+  },
+  "system_trust_rules": {
+    "facts_only": true,
+    "no_speculation_without_mark": true,
+    "no_imaginary_features": true,
+    "user_priority_over_generic_rules": true,
+    "user_preferences_override_defaults": true
+  },
+  "limitations": {
+    "platforms": ["macOS", "iOS"],
+    "windows_support": false,
+    "code_fragments_allowed": false,
+    "code_delivery_policy": "только полный код целиком"
+  }
+}{
+  "business_profile": {
+    "main_activity": "ивент-услуги (оформление, фото, магниты, видео, фотобудка)",
+    "market": "Израиль",
+    "core_events": [
+      "ברית מילה",
+      "בר/בת מצווה",
+      "дни рождения",
+      "корпоративы",
+      "Пурим",
+      "открытия магазинов"
+    ],
+    "business_goal": "масштабирование через автоматизацию и делегирование",
+    "personal_brand_focus": false,
+    "order_flow": [
+      "реклама",
+      "обращение",
+      "обсуждение",
+      "закрытие",
+      "подготовка",
+      "выезд исполнителя"
+    ]
+  },
+  "brands": {
+    "primary_brand": "Argaman",
+    "legacy_brand": "Vladimir Austin",
+    "domains": [
+      "vladimir-austin.com",
+      "argaman.co"
+    ],
+    "brand_positioning": "премиум, уверенность, визуал, эмоции, скорость"
+  },
+  "services": {
+    "balloon_decor": {
+      "description": "оформление шарами для частных и коммерческих мероприятий",
+      "customization": ["надписи", "цвета", "аксессуары"],
+      "live_flowers": false
+    },
+    "magnet_photography": {
+      "description": "съёмка и печать магнитов на мероприятиях",
+      "most_profitable": true,
+      "most_demanded_for": "ברית מילה"
+    },
+    "photo_video": {
+      "photo": true,
+      "video": true,
+      "highlight_clips": true
+    },
+    "photobox": {
+      "active": true
+    },
+    "games": {
+      "active": true,
+      "used_for": ["бар/בת מצווה", "корпоративы"]
+    }
+  },
+  "packages": {
+    "brit_premium_2500": {
+      "event_type": "ברית מילה",
+      "includes": [
+        "неограниченная съёмка и печать магнитов",
+        "6 больших магнитов",
+        "4 деревянных блока",
+        "видео церемонии (в подарок)",
+        "ссылка на скачивание всех материалов",
+        "фотозона среднего размера (3–3.5 м)"
+      ],
+      "price_ils": 2500,
+      "positioning": "премиум",
+      "emotional_effect": "высокий"
+    }
+  },
+  "pricing_logic": {
+    "main_loss_stage": "этап цены",
+    "combined_offers_priority": true,
+    "freelancer_dependency": true,
+    "minimum_order_threshold": "требует расчёта"
+  },
+  "sales_logic": {
+    "entry_points": ["магниты", "шары"],
+    "main_conversion_method": "апселл второго компонента",
+    "brit_clients_profile": {
+      "decision_time_days": 7,
+      "price_sensitivity": "ниже средней",
+      "emotional_involvement": "высокая"
+    }
+  },
+  "upsell_logic": [
+    "магниты + шары",
+    "шары + фото",
+    "фотобудка + магниты"
+  ],
+  "regions": {
+    "working_area": "центр Израиля",
+    "excluded_regions": [
+      "всё южнее Ашдода",
+      "Иерусалим и окрестности",
+      "район Мёртвого моря",
+      "Лод",
+      "Рамле",
+      "Акко"
+    ],
+    "mobility_type": "выездной бизнес"
+  }
+}{
+  "site_architecture": {
+    "primary_domain": "argaman.co",
+    "secondary_domain": "vladimir-austin.com",
+    "hosting": "Hostinger",
+    "site_type": "чистый HTML (без CMS)",
+    "rtl": true,
+    "main_structure": {
+      "public_html": [
+        "index.html",
+        "404.html",
+        "robots.txt",
+        "sitemap.xml",
+        "manifest.json",
+        ".htaccess",
+        "README.txt"
+      ],
+      "pages": [
+        "balloons.html",
+        "magnetim.html",
+        "photobox.html",
+        "contact.html",
+        "brit-pack.html"
+      ],
+      "includes": [
+        "header.html",
+        "footer.html"
+      ],
+      "assets": {
+        "css": ["main.css"],
+        "js": ["main.js"],
+        "img": ["gallery", "icons", "hero"],
+        "fonts": [],
+        "video": ["hero.mp4"]
+      },
+      "vendor": ["fa (FontAwesome)"]
+    }
+  },
+  "global_rules_for_html": {
+    "always_responsive": true,
+    "always_block_comments_required": true,
+    "comment_format": "<!-- начало блока [название] ---- --> / <!-- конец блока [название] ---- -->",
+    "full_width_rule": "width:100% + aspect-ratio (без left:50% и margin-left:-50vw)",
+    "no_plugins_for_gallery": true
+  },
+  "design_system": {
+    "argaman_palette": {
+      "primary": "#4d184d",
+      "secondary": "#7e3f7d",
+      "soft_background": "#d8c7dc",
+      "white": "#ffffff",
+      "dark_text": "#292929",
+      "light_gray": "#e0e0e0",
+      "accent_yellow": "#f8ce46"
+    },
+    "font_base_size": "18px",
+    "ui_style": ["premium", "clean", "glassmorphism", "soft_shadow", "gradient_cards"],
+    "glass_effect": {
+      "class": ".glass",
+      "effects": ["gradient", "shimmer", "hover-depth"]
+    }
+  },
+  "gallery_logic": {
+    "grid_type": "CSS Grid",
+    "width": "100vw",
+    "background_under_captions": false,
+    "caption_visibility": "always visible",
+    "caption_position": "center-bottom",
+    "caption_color": "white",
+    "caption_shadow": true,
+    "desktop_font_size": "3.2rem",
+    "mobile_font_size": "2.4rem",
+    "hover_effects": false,
+    "click_actions": false,
+    "badges": ["מבצע", "חדש"]
+  },
+  "gallery_categories": {
+    "walls_5m": [
+      "A-1","A-2","A-3","A-4","A-5","A-7","A-8","A-10","A-10 (2)","A-13","A-22","A-27","A-28","A-28 (Blue)","A-29"
+    ],
+    "walls_2_5_to_3_5m": [
+      "A-6","A-9","A-11","A-11 (Pink)","A-12","A-12 (Pink)","A-14","A-15","A-15 (2)",
+      "A-16","A-16 (2)","A-16 (Bar Mitzva)","A-17","A-18","A-21","A-25","A-26",
+      "A-31","A-31 (Baby)","A-31 (Bar Mitzvah)","A-32","A-33","A-33 (Blue)",
+      "A-33 (Brown)","A-34"
+    ]
+  },
+  "forms_and_whatsapp_templates": {
+    "whatsapp_base_url": "https://api.whatsapp.com/send?phone=972542330001&text=",
+    "encoding": "encodeURIComponent",
+    "date_format": "DD-MM-YYYY",
+    "hebrew_labels_source": "textContent из скрытых div",
+    "validation_required": true
+  },
+  "main_js_file": {
+    "file": "/assets/js/main.js",
+    "namespace": "ARGAMAN",
+    "responsibilities": [
+      "burger-menu",
+      "include-html (header/footer)",
+      "a11y button",
+      "hero slider"
+    ]
+  },
+  "accessibility": {
+    "widget_class": ".a11y-widget",
+    "toggle_class": ".a11y-toggle",
+    "panel_class": ".a11y-panel",
+    "active_on_all_pages": true
+  },
+  "analytics_stack": {
+    "gtm": "GTM-P7M6HWWN",
+    "ga4": "G-N2K1H6MQJF",
+    "pixel_usage": ["Meta Pixel", "Conversions API"]
+  },
+  "ai_render_and_visual_rules": {
+    "balloon_sizes": ["18\"", "12\"", "5\""],
+    "18_inch_usage": "редко",
+    "12_inch_usage": "основа",
+    "5_inch_usage": "в парах или тройках",
+    "backdrops_text": "можно убирать",
+    "must_keep_proportions": true
+  },
+  "media_storage_policy": {
+    "figma_uploads": false,
+    "antigravity_uploads": false,
+    "github_as_cdn": true,
+    "absolute_links_in_html": true
+  }
+}{
+  "whatsapp_analysis_engine_v6": {
+    "core_principle": "холодный анализ без догадок",
+    "automatic_unzip_required": true,
+    "no_assumptions_policy": true,
+    "confidence_required_for_each_statement": true,
+    "uncertainty_handling": "обязательно задавать уточняющий вопрос до финального вывода",
+    "output_modes": ["text_analysis", "json_record", "csv_table"]
+  },
+  "base_chat_processing": {
+    "data_extraction": [
+      "дата",
+      "время",
+      "автор",
+      "интервалы",
+      "длительность диалога"
+    ],
+    "event_type_detection": [
+      "ברית",
+      "בת/בר מצווה",
+      "день рождения",
+      "корпоратив",
+      "другое"
+    ],
+    "services_detection": [
+      "магниты",
+      "фото",
+      "видео",
+      "шары",
+      "фотобудка",
+      "игры"
+    ],
+    "media_tracking": [
+      "фото",
+      "видео",
+      "голосовые"
+    ],
+    "channel_detection": [
+      "сайт",
+      "Instagram",
+      "сарафанное радио",
+      "другое"
+    ]
+  },
+  "behavioral_metrics": {
+    "message_count_each_side": true,
+    "average_message_length": true,
+    "reply_intervals": true,
+    "pause_detection": true,
+    "return_after_pause_tracking": true
+  },
+  "psychological_analysis": {
+    "understanding_level": [
+      "низкий",
+      "средний",
+      "высокий"
+    ],
+    "emotional_tone": [
+      "настороженный",
+      "нейтральный",
+      "уверенный",
+      "тёплый",
+      "восторженный"
+    ],
+    "client_type": [
+      "рациональный",
+      "эмоциональный",
+      "социальный",
+      "прагматичный"
+    ],
+    "trust_level": [
+      "низкий",
+      "средний",
+      "высокий"
+    ]
+  },
+  "commercial_behavior": {
+    "price_mentions_tracking": true,
+    "discount_requests_tracking": true,
+    "upgrade_downgrade_tracking": true,
+    "competitor_mentions_tracking": true,
+    "payment_terms_tracking": [
+      "מקדמה",
+      "ביום האירוע"
+    ]
+  },
+  "geo_and_logistics": {
+    "city_detection": true,
+    "venue_detection": true,
+    "distance_category": [
+      "центр",
+      "периферия",
+      "דרום",
+      "צפון"
+    ],
+    "day_of_week": true,
+    "time_of_day": true,
+    "parking_availability": true,
+    "language_detection": [
+      "иврит",
+      "русский",
+      "английский"
+    ]
+  },
+  "time_context": {
+    "days_before_event": true,
+    "urgency_level": [
+      "низкая",
+      "средняя",
+      "высокая"
+    ],
+    "decision_speed": [
+      "медленно",
+      "нормально",
+      "быстро"
+    ]
+  },
+  "client_values": {
+    "price_priority": true,
+    "quality_priority": true,
+    "speed_priority": true,
+    "prestige_priority": true,
+    "relationship_priority": true,
+    "conversion_triggers": [
+      "подарки",
+      "отзывы",
+      "уверенность",
+      "дизайн"
+    ]
+  },
+  "meta_data": {
+    "contact_source": true,
+    "device_if_visible": true,
+    "day_of_week": true,
+    "conversation_finish_type": [
+      "активный",
+      "пассивный"
+    ],
+    "touchpoints_count": true
+  },
+  "advanced_analytics": {
+    "mood_shift_triggers": true,
+    "effective_phrases_tracking": true,
+    "refusal_signals": [
+      "נחשוב על זה",
+      "נעדכן אותך"
+    ],
+    "risk_of_cancel_estimation": true
+  },
+  "future_prediction": {
+    "close_probability_estimation": true,
+    "client_portrait_building": true,
+    "region_behavior_patterns": true,
+    "sales_strategy_optimization": true
+  },
+  "client_type_detection": {
+    "b2b": {
+      "markers": [
+        "לקוח שלי",
+        "בשביל מישהו",
+        "формальный стиль",
+        "не принимает решения"
+      ]
+    },
+    "b2c": {
+      "markers": [
+        "יש לי ברית",
+        "эмоционален",
+        "решает сам"
+      ]
+    },
+    "mixed": {
+      "rule": "классифицировать как B2C с пометкой"
+    }
+  },
+  "repeat_clients_tracking": {
+    "enabled": true,
+    "order_sequence_number": true,
+    "b2b_and_b2c_supported": true,
+    "linking_method": [
+      "номер телефона",
+      "имя",
+      "стиль общения"
+    ]
+  },
+  "vova_actions_evaluation": {
+    "response_speed": true,
+    "clarity_of_offer": true,
+    "value_based_selling": true,
+    "dialog_control": true,
+    "trigger_usage": true,
+    "deal_finalization": true,
+    "final_score_percent": true,
+    "short_comment_required": true
+  },
+  "chat_naming_rule": {
+    "format": "Дата загрузки - имя клиента - номер телефона - услуги - решение"
+  },
+  "clients_database": {
+    "stored_fields": [
+      "имя",
+      "телефон",
+      "город",
+      "адрес",
+      "зал",
+      "тип события",
+      "услуги",
+      "дата",
+      "время",
+      "цены",
+      "подарки",
+      "апгрейды",
+      "стиль общения",
+      "платежеспособность",
+      "география",
+      "повторный клиент"
+    ]
+  }
+}{
+  "meta": {
+    "version": "argaman_ai_memory_v1_full",
+    "owner": "Vladimir Austin",
+    "created_at": "2025-12-06",
+    "language_primary": "ru",
+    "languages": ["ru", "he", "en"]
+  },
+  "identity": {
+    "name": "Вова (Vladimir Austin)",
+    "location": "Israel",
+    "primary_focus": "предприниматель, ивент-сфера, автоматизация, веб-продукты",
+    "core_traits": [
+      "практичный",
+      "инновационный",
+      "нестандартное мышление",
+      "ориентирован на будущее",
+      "честный",
+      "прямой",
+      "без иллюзий"
+    ]
+  },
+  "communication_rules": {
+    "default_style": "коротко, по делу, без воды",
+    "truth_policy": "не врать",
+    "clarification_policy": "если есть сомнение — сразу задавать вопрос",
+    "verbosity": "минимальная по умолчанию",
+    "expanded_answers": "только по прямому запросу",
+    "tone": "спокойный, прямой, без метафор и украшательств",
+    "forbidden_style": [
+      "вода",
+      "расплывчатые формулировки",
+      "эмоциональные украшения",
+      "давление",
+      "манипулятивные формулы"
+    ],
+    "special_commands": {
+      "ultra_short": ["ййй", "qqq", "///"],
+      "hebrew_grammar_check": "ששש",
+      "price_calc_input": "Cccalc",
+      "code_policy": "если сказано 'код', 'код!!' — отдавать сразу полный рабочий код целиком, без пропусков; 'код??' — сохранить код как есть и кратко описать изменения"
+    }
+  },
+  "psychological_profile": {
+    "decision_style": "через логику, цифры и реальную применимость",
+    "risk_tolerance": "средняя, через тесты и прототипы",
+    "learning_mode": "через практику и реальные кейсы",
+    "motivation_drivers": [
+      "деньги",
+      "масштаб",
+      "автоматизация",
+      "свобода от рутины"
+    ],
+    "irritation_triggers": [
+      "пустые советы",
+      "очевидные вопросы",
+      "повторы",
+      "поверхностные ответы"
+    ]
+  },
+  "system_trust_rules": {
+    "facts_only": true,
+    "no_speculation_without_mark": true,
+    "no_imaginary_features": true,
+    "user_priority_over_generic_rules": true,
+    "user_preferences_override_defaults": true
+  },
+  "limitations": {
+    "platforms": ["macOS", "iOS"],
+    "windows_support": false,
+    "code_fragments_allowed": false,
+    "code_delivery_policy": "только полный код целиком",
+    "language_direction_rules": {
+      "hebrew_numbers_left_to_right": true
+    }
+  },
+  "business_profile": {
+    "main_activity": "ивент-услуги (оформление, фото, магниты, видео, фотобудка, игры)",
+    "market": "Израиль",
+    "core_events": [
+      "ברית מילה",
+      "בר/בת מצווה",
+      "дни рождения",
+      "корпоративы",
+      "Пурим",
+      "открытия магазинов"
+    ],
+    "business_goal": "масштабирование через автоматизацию и делегирование, построение прибыльной фирмы для разных видов торжеств",
+    "personal_brand_focus": false,
+    "order_flow": [
+      "реклама",
+      "обращение",
+      "обсуждение",
+      "закрытие",
+      "подготовка",
+      "выезд исполнителя"
+    ],
+    "main_target_segment": "молодые родители на ברית מילה (быстрые решения, ниже чувствительность к цене)",
+    "main_loss_stage": "этап озвучивания цены"
+  },
+  "brands": {
+    "primary_brand": "Argaman",
+    "legacy_brand": "Vladimir Austin",
+    "domains": [
+      "vladimir-austin.com",
+      "argaman.co"
+    ],
+    "brand_positioning": "премиум, уверенность, визуал, эмоции, скорость",
+    "argaman_palette": {
+      "primary": "#4d184d",
+      "secondary": "#7e3f7d",
+      "soft_background": "#d8c7dc",
+      "white": "#ffffff",
+      "dark_text": "#292929",
+      "light_gray": "#e0e0e0",
+      "accent_yellow": "#f8ce46"
+    }
+  },
+  "services": {
+    "balloon_decor": {
+      "description": "оформление шарами для частных и коммерческих мероприятий",
+      "customization": ["надписи", "цвета", "аксессуары"],
+      "live_flowers": false,
+      "working_area": "центр Израиля"
+    },
+    "magnet_photography": {
+      "description": "съёмка и печать магнитов на мероприятиях",
+      "most_profitable": true,
+      "most_demanded_for": "ברית מילה",
+      "frame_rules": {
+        "base_size_px": "3000x2000",
+        "no_elements_near_edge": true,
+        "if_element_on_transparent_zone_add_stroke": true,
+        "event_colors": {
+          "brit_boy": "blue frame text",
+          "brit_girl_or_bat_mitzvah": "pink or rose gold"
+        }
+      }
+    },
+    "photo_video": {
+      "photo": true,
+      "video": true,
+      "highlight_clips": true
+    },
+    "photobox": {
+      "active": true
+    },
+    "games": {
+      "active": true,
+      "used_for": ["бар/בת מצווה", "корпоративы"],
+      "landing_page": "игры для торжеств, упор на быстрый заказ через звонок/WhatsApp"
+    }
+  },
+  "packages": {
+    "brit_premium_2500": {
+      "event_type": "ברית מילה",
+      "includes": [
+        "неограниченная съёмка и печать магнитов",
+        "6 больших магнитов",
+        "4 деревянных блока",
+        "видео церемонии (в подарок)",
+        "ссылка на скачивание всех материалов",
+        "фотозона среднего размера (3–3.5 м)"
+      ],
+      "price_ils": 2500,
+      "positioning": "премиум",
+      "emotional_effect": "высокий"
+    }
+  },
+  "pricing_logic": {
+    "freelancer_dependency": true,
+    "minimum_order_threshold": "нужно считать, так как подключаются фрилансеры",
+    "combined_offers_priority": true
+  },
+  "sales_logic": {
+    "entry_points": ["магниты", "шары"],
+    "main_conversion_method": "апселл второго компонента (шары + магниты / магниты + шары)",
+    "brit_clients_profile": {
+      "decision_time_days": 7,
+      "price_sensitivity": "ниже средней",
+      "emotional_involvement": "высокая"
+    }
+  },
+  "upsell_logic": [
+    "магниты + шары",
+    "шары + фото",
+    "фотобудка + магниты"
+  ],
+  "regions": {
+    "working_area": "центр Израиля",
+    "excluded_regions": [
+      "всё южнее Ашдода",
+      "Иерусалим и окрестности",
+      "район Мёртвого моря",
+      "Лод",
+      "Рамле",
+      "Акко"
+    ],
+    "mobility_type": "выездной бизнес"
+  },
+  "site_architecture": {
+    "primary_domain": "argaman.co",
+    "secondary_domain": "vladimir-austin.com",
+    "hosting": "Hostinger",
+    "site_type": "чистый HTML (без CMS)",
+    "rtl": true,
+    "structure": {
+      "public_html_files": [
+        "index.html",
+        "404.html",
+        "robots.txt",
+        "sitemap.xml",
+        "manifest.json",
+        ".htaccess",
+        "README.txt"
+      ],
+      "pages": [
+        "balloons.html",
+        "magnetim.html",
+        "photobox.html",
+        "contact.html",
+        "brit-pack.html"
+      ],
+      "includes": [
+        "header.html",
+        "footer.html"
+      ],
+      "assets": {
+        "css": ["assets/css/main.css"],
+        "js": ["assets/js/main.js"],
+        "img_dirs": ["assets/img/gallery", "assets/img/icons", "assets/img/hero"],
+        "video": ["assets/video/hero.mp4"],
+        "fonts": []
+      },
+      "vendor": ["vendor/fa"]
+    }
+  },
+  "global_rules_for_html": {
+    "always_responsive": true,
+    "always_block_comments_required": true,
+    "comment_format": "<!-- начало блока [название блока] ---- --> / <!-- конец блока [название блока] ---- -->",
+    "full_width_rule": "width:100% + aspect-ratio (без left:50% и margin-left:-50vw)",
+    "no_plugins_for_gallery": true,
+    "page_must_include_a11y_widget": true
+  },
+  "design_system": {
+    "font_base_size": "18px",
+    "ui_style": ["premium", "clean", "glassmorphism", "soft_shadow", "gradient_cards"],
+    "glass_effect": {
+      "class": ".glass",
+      "effects": ["gradient", "shimmer", "hover-depth"]
+    },
+    "price_cards": {
+      "gradient_backgrounds": true,
+      "soft_shadows": true,
+      "hover_raise_effect": true,
+      "selected_card_highlight": true,
+      "inline_whatsapp_integration": true
+    }
+  },
+  "gallery_logic": {
+    "grid_type": "CSS Grid",
+    "width": "100vw",
+    "background_under_captions": false,
+    "caption_visibility": "always visible",
+    "caption_position": "center-bottom",
+    "caption_color": "white",
+    "caption_shadow": true,
+    "desktop_font_size": "3.2rem",
+    "mobile_font_size": "2.4rem",
+    "hover_effects": false,
+    "click_actions": false,
+    "badges": ["מבצע", "חדש"]
+  },
+  "gallery_categories": {
+    "walls_5m": [
+      "A-1","A-2","A-3","A-4","A-5","A-7","A-8","A-10","A-10 (2)","A-13","A-22","A-27","A-28","A-28 (Blue)","A-29"
+    ],
+    "walls_2_5_to_3_5m": [
+      "A-6","A-9","A-11","A-11 (Pink)","A-12","A-12 (Pink)","A-14","A-15","A-15 (2)",
+      "A-16","A-16 (2)","A-16 (Bar Mitzva)","A-17","A-18","A-21","A-25","A-26",
+      "A-31","A-31 (Baby)","A-31 (Bar Mitzvah)","A-32","A-33","A-33 (Blue)",
+      "A-33 (Brown)","A-34"
+    ]
+  },
+  "forms_and_whatsapp_templates": {
+    "whatsapp_base_url": "https://api.whatsapp.com/send?phone=972542330001&text=",
+    "encoding": "encodeURIComponent",
+    "date_format": "DD-MM-YYYY",
+    "hebrew_labels_source": "textContent из скрытых div",
+    "validation_required": true,
+    "send_method": ["window.location.href", "window.open"]
+  },
+  "main_js_file": {
+    "file": "/assets/js/main.js",
+    "namespace": "ARGAMAN",
+    "responsibilities": [
+      "include-html (header/footer)",
+      "burger-menu",
+      "a11y button",
+      "hero-brit slider",
+      "basic UX scroll"
+    ]
+  },
+  "accessibility": {
+    "widget_class": ".a11y-widget",
+    "toggle_class": ".a11y-toggle",
+    "panel_class": ".a11y-panel",
+    "active_on_all_pages": true
+  },
+  "analytics_stack": {
+    "gtm": "GTM-P7M6HWWN",
+    "ga4": "G-N2K1H6MQJF",
+    "meta_pixel": true,
+    "conversions_api": true
+  },
+  "ai_render_and_visual_rules": {
+    "balloon_sizes": ["18\"", "12\"", "5\""],
+    "18_inch_usage": "редко",
+    "12_inch_usage": "основа",
+    "5_inch_usage": "в парах или тройках",
+    "backdrops_text": "можно убирать",
+    "must_keep_proportions": true,
+    "photo_editing_principle": "не трогать людей и ключевые объекты, если явно не указано"
+  },
+  "media_storage_policy": {
+    "figma_uploads": false,
+    "antigravity_uploads": false,
+    "github_as_cdn": true,
+    "absolute_links_in_html": true
+  },
+  "whatsapp_analysis_engine_v6": {
+    "core_principle": "холодный анализ без догадок",
+    "automatic_unzip_required": true,
+    "no_assumptions_policy": true,
+    "confidence_required_for_each_statement": true,
+    "uncertainty_handling": "обязательно задавать уточняющий вопрос до финального вывода",
+    "output_modes": ["text_analysis", "json_record", "csv_table"]
+  },
+  "base_chat_processing": {
+    "data_extraction": [
+      "дата",
+      "время",
+      "автор",
+      "интервалы",
+      "длительность диалога"
+    ],
+    "event_type_detection": [
+      "ברית",
+      "בת/בר מצווה",
+      "день рождения",
+      "корпоратив",
+      "другое"
+    ],
+    "services_detection": [
+      "магниты",
+      "фото",
+      "видео",
+      "шары",
+      "фотобудка",
+      "игры"
+    ],
+    "media_tracking": [
+      "фото",
+      "видео",
+      "голосовые"
+    ],
+    "channel_detection": [
+      "сайт",
+      "Instagram",
+      "сарафанное радио",
+      "другое"
+    ]
+  },
+  "behavioral_metrics": {
+    "message_count_each_side": true,
+    "average_message_length": true,
+    "reply_intervals": true,
+    "pause_detection": true,
+    "return_after_pause_tracking": true
+  },
+  "psychological_analysis": {
+    "understanding_level": [
+      "низкий",
+      "средний",
+      "высокий"
+    ],
+    "emotional_tone": [
+      "настороженный",
+      "нейтральный",
+      "уверенный",
+      "тёплый",
+      "восторженный"
+    ],
+    "client_type": [
+      "рациональный",
+      "эмоциональный",
+      "социальный",
+      "прагматичный"
+    ],
+    "trust_level": [
+      "низкий",
+      "средний",
+      "высокий"
+    ]
+  },
+  "commercial_behavior": {
+    "price_mentions_tracking": true,
+    "discount_requests_tracking": true,
+    "upgrade_downgrade_tracking": true,
+    "competitor_mentions_tracking": true,
+    "payment_terms_tracking": [
+      "מקדמה",
+      "ביום האירוע"
+    ]
+  },
+  "geo_and_logistics": {
+    "city_detection": true,
+    "venue_detection": true,
+    "distance_category": [
+      "центр",
+      "периферия",
+      "דרום",
+      "צפון"
+    ],
+    "day_of_week": true,
+    "time_of_day": true,
+    "parking_availability": true,
+    "language_detection": [
+      "иврит",
+      "русский",
+      "английский"
+    ]
+  },
+  "time_context": {
+    "days_before_event": true,
+    "urgency_level": [
+      "низкая",
+      "средняя",
+      "высокая"
+    ],
+    "decision_speed": [
+      "медленно",
+      "нормально",
+      "быстро"
+    ]
+  },
+  "client_values": {
+    "price_priority": true,
+    "quality_priority": true,
+    "speed_priority": true,
+    "prestige_priority": true,
+    "relationship_priority": true,
+    "conversion_triggers": [
+      "подарки",
+      "отзывы",
+      "уверенность",
+      "дизайн"
+    ]
+  },
+  "meta_data": {
+    "contact_source": true,
+    "device_if_visible": true,
+    "day_of_week": true,
+    "conversation_finish_type": [
+      "активный",
+      "пассивный"
+    ],
+    "touchpoints_count": true
+  },
+  "advanced_analytics": {
+    "mood_shift_triggers": true,
+    "effective_phrases_tracking": true,
+    "refusal_signals": [
+      "נחשוב על זה",
+      "נעדכן אותך"
+    ],
+    "risk_of_cancel_estimation": true
+  },
+  "future_prediction": {
+    "close_probability_estimation": true,
+    "client_portrait_building": true,
+    "region_behavior_patterns": true,
+    "sales_strategy_optimization": true
+  },
+  "client_type_detection": {
+    "b2b": {
+      "markers": [
+        "לקוח שלי",
+        "בשביל מישהו",
+        "формальный стиль",
+        "не принимает решения сам"
+      ]
+    },
+    "b2c": {
+      "markers": [
+        "יש לי ברית",
+        "эмоционален",
+        "решает сам"
+      ]
+    },
+    "mixed": {
+      "rule": "классифицировать как B2C с пометкой '⚠️ бизнес-профиль, но личное обращение'"
+    }
+  },
+  "repeat_clients_tracking": {
+    "enabled": true,
+    "order_sequence_number": true,
+    "b2b_and_b2c_supported": true,
+    "linking_method": [
+      "номер телефона",
+      "имя",
+      "стиль общения"
+    ]
+  },
+  "vova_actions_evaluation": {
+    "response_speed": true,
+    "clarity_of_offer": true,
+    "value_based_selling": true,
+    "dialog_control": true,
+    "trigger_usage": true,
+    "deal_finalization": true,
+    "final_score_percent": true,
+    "short_comment_required": true
+  },
+  "chat_naming_rule": {
+    "format": "Дата загрузки - имя клиента - номер телефона - услуги - решение"
+  },
+  "clients_database": {
+    "stored_fields": [
+      "имя",
+      "телефон",
+      "город",
+      "адрес",
+      "зал",
+      "тип события",
+      "услуги",
+      "дата",
+      "время",
+      "цены",
+      "подарки",
+      "апгрейды",
+      "стиль общения",
+      "платежеспособность",
+      "география",
+      "повторный клиент"
+    ]
+  },
+  "hardware_and_tech": {
+    "computers": [
+      {
+        "type": "laptop",
+        "model": "MacBook Air M3",
+        "os": "macOS",
+        "primary": true
+      }
+    ],
+    "phones": [
+      {
+        "model": "iPhone 16 Pro",
+        "role": "основной телефон"
+      },
+      {
+        "model": "iPhone 12 Pro 256GB",
+        "role": "старый телефон, для съёмки/экспериментов"
+      },
+      {
+        "model": "Samsung A72",
+        "role": "дополнительное устройство, также под задачи съёмки/авто"
+      }
+    ],
+    "network": {
+      "wifi_ssid": "Mordor",
+      "wifi_password": "7334620v"
+    },
+    "microcontrollers": [
+      {
+        "type": "ESP32",
+        "model": "ESP32-S3 WROOM-1",
+        "role": "основная плата для ESPHome/Home Assistant"
+      }
+    ],
+    "other_devices": [
+      "Apple TV (интерес к кастомным настройкам, ssh, неофициальным возможностям)",
+      "Xbox One S",
+      "Canon RP (камера)",
+      "экшн-камеры и звук (GoPro/360, DJI Mic — нефиксированные модели)"
+    ]
+  },
+  "vehicles_db": {
+    "skoda_superb_2011": {
+      "make": "Škoda",
+      "model": "Superb Combi",
+      "year": 2011,
+      "vin": "TMBJB93T2B9026106",
+      "engine": {
+        "code": "CDA",
+        "type": "1.8 TSI бензин",
+        "displacement_cc": 1798,
+        "power_hp": 160
+      },
+      "transmission": "автомат",
+      "tyres": "225/45 R17 94W",
+      "color": "тёмно-коричневый",
+      "body_type": "универсал",
+      "category": "частная",
+      "first_registration": "2010-12",
+      "country_of_assembly": "Чехия",
+      "role": "основная рабочая машина"
+    },
+    "vw_caravelle_2021": {
+      "make": "Volkswagen",
+      "model": "Caravelle long wheelbase",
+      "year": 2021,
+      "vin": "WV2ZZZ7HZMH028020",
+      "engine": {
+        "code": "CXF",
+        "type": "2.0 TDI дизель",
+        "displacement_cc": 1968
+      },
+      "transmission": "DSG (автомат)",
+      "tyres": "215/65 R16 104T",
+      "color": "белый",
+      "category": "коммерческий",
+      "first_registration": "2021-03",
+      "role": "перевозка оборудования и крупных мероприятий"
+    },
+    "volvo_xc60_2011": {
+      "make": "Volvo",
+      "model": "XC60",
+      "year": 2011,
+      "vin": "YV1DZ9056B2152385",
+      "engine": {
+        "code": "B6304T4",
+        "type": "бензин, рядный 6-цилиндровый",
+        "displacement_cc": 2963,
+        "power_hp": 304
+      },
+      "transmission": "автомат",
+      "tyres": "235/65 R17 104V",
+      "color": "белый",
+      "body_type": "кроссовер (DZ90, סטיישן)",
+      "category": "частная",
+      "first_registration": "2011-06",
+      "oil_dipstick_oem": "31316562",
+      "role": "семейная машина (жена)"
+    }
+  },
+  "home_automation": {
+    "platform": "Home Assistant",
+    "host": "Mac M3 через UTM (режим Emulate)",
+    "goals": [
+      "умный дом",
+      "треккинг BLE-устройств",
+      "интеграция с бизнес-процессами"
+    ],
+    "ble_tracking": {
+      "tool": "Bermuda BLE Trilateration",
+      "use_case": "треккинг BLE в умном доме"
+    },
+    "wireless_stack": {
+      "esp_home": true,
+      "zigbee": true,
+      "zigbee_dongles": ["Sonoff"],
+      "esp32_devices": ["ESP32-S3 WROOM-1"]
+    }
+  },
+  "hobbies_and_lifestyle": {
+    "cars": {
+      "stance_project_dream": true,
+      "interest": [
+        "стенс-проекты",
+        "визуал машины",
+        "кастомные диски",
+        "тюнинг"
+      ]
+    },
+    "cooking": {
+      "interests": [
+        "стейки",
+        "гриль",
+        "пицца на газовом гриле"
+      ],
+      "grill": {
+        "brand": "Char-Broil",
+        "model": "Professional TRU-Infrared",
+        "use": "стейки, план пицца на камне/насадке"
+      }
+    },
+    "gaming": {
+      "console": "Xbox One S",
+      "genres": ["НЕ слишком хардкор, семейно/кайфово"]
+    },
+    "family": {
+      "wife": "Номи",
+      "role_distribution": {
+        "vova": "рабочий муравей, бизнес и исполнение",
+        "nomi": "логистика, планирование, обучение детей"
+      },
+      "kids": [
+        {
+          "name": "Томми",
+          "age": 6,
+          "likes": ["космос", "океаны", мульт 'Октонавты'"],
+          "swimming": {
+            "can_float": true,
+            "can_dive": true,
+            "does_not_like_technique": true
+          }
+        },
+        {
+          "name": "Райен",
+          "age": 3
+        }
+      ]
+    }
+  },
+  "news_and_risk_preferences": {
+    "operation_am_kalavi": {
+      "wants_hourly_summary": true,
+      "scope": "только ключевые события по операции, без воды",
+      "extra": {
+        "tactics_change_probability": true,
+        "non_standard_actions": [
+          "дневные удары",
+          "морские цели",
+          "кибератаки",
+          "атаки из других направлений"
+        ],
+        "warning": "отсутствие сирены не равно отсутствие угрозы"
+      }
+    },
+    "geo_politics": {
+      "daily_brief": true,
+      "regions": [
+        "Israel",
+        "Iran",
+        "Russia",
+        "China",
+        "other involved countries"
+      ],
+      "format": {
+        "short": true,
+        "with_probabilities": true,
+        "scenario_based": true,
+        "triggers_of_large_war": true
+      }
+    },
+    "events_readiness_by_region": {
+      "enabled": true,
+      "granularity": "по районам Израиля, не только Нетания"
+    }
+  },
+  "long_term_plans": {
+    "business": [
+      "построить фирму под разные виды торжеств с устойчивой прибылью",
+      "автоматизировать генерацию клиентов и воронку",
+      "делегировать максимум исполнения фрилансерам",
+      "расширять пакет 'брит' как флагманский"
+    ],
+    "digital": [
+      "создать тех-аватар / чат-бот на основе этой памяти",
+      "интегрировать бота с WhatsApp и сайтом",
+      "выстроить связку Figma → GitHub → Antigravity → Hostinger",
+      "сделать базу знаний на реальных переписках"
+    ],
+    "personal": [
+      "реализовать стенс-проект",
+      "больше путешествовать",
+      "когда-нибудь открыть точку быстрого питания"
+    ]
+  },
+  "memory_integrity": {
+    "export_version": "v1_full",
+    "created_at": "2025-12-06",
+    "blocks_count": 24,
+    "verified_no_empty_blocks": true
+  }
+}{
+  "stage_6_constraints_and_future_strategy": {
+    "limitations_global": {
+      "no_windows_support": true,
+      "no_fragmented_code_delivery": true,
+      "no_guessing_without_confirmation": true,
+      "no_fake_features": true,
+      "no_marketing_bullshit": true
+    },
+    "forbidden_logic": {
+      "forbidden_response_styles": [
+        "вода",
+        "пустая мотивация",
+        "обобщения без цифр",
+        "советы без практической схемы",
+        "копипаст без адаптации под контекст Вовы"
+      ],
+      "forbidden_assumptions": [
+        "додумывание намерений клиента",
+        "интерпретация без текстового подтверждения",
+        "прогнозы без вероятностей"
+      ],
+      "forbidden_tech": [
+        "Windows-ориентированные решения",
+        "платные SaaS без альтернатив",
+        "неподдерживаемые плагины",
+        "визуальные редакторы с lock-in"
+      ]
+    },
+    "system_trust_model": {
+      "priority_order": [
+        "факты из переписки",
+        "заданные Вовой правила",
+        "бизнес-логика",
+        "только потом — нейтральные рекомендации"
+      ],
+      "confidence_policy": "каждое утверждение должно иметь уровень уверенности в процентах",
+      "uncertainty_protocol": "если меньше 70% — обязательный вопрос пользователю"
+    },
+    "future_scaling_strategy": {
+      "automation_focus": [
+        "RAG на базе WhatsApp-переписок",
+        "AI-бот для первичного общения с клиентом",
+        "автоматический расчёт пакетов",
+        "автоматическое назначение исполнителей"
+      ],
+      "data_centralization": [
+        "единая клиентская база",
+        "единая база пакетов",
+        "единая база регионов",
+        "единая база подрядчиков"
+      ],
+      "ai_roles_planned": [
+        "бот-продавец",
+        "бот-аналитик переписок",
+        "бот-ассистент для сайта",
+        "бот-оператор для WhatsApp"
+      ]
+    },
+    "strategic_risks": {
+      "overdependence_on_freelancers": true,
+      "price_pressure_market": true,
+      "seasonal_load_spikes": [
+        "Пурим",
+        "праздники",
+        "летний сезон"
+      ],
+      "geo_restrictions_impact": "потеря части заказов из-за ограничений по регионам"
+    },
+    "non_negotiable_principles": [
+      "честность в расчётах",
+      "прозрачность пакетов",
+      "реалистичные сроки",
+      "никаких обещаний без ресурса",
+      "никаких демпинговых войн"
+    ]
+  }
+}
